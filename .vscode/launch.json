@@ -14,7 +14,10 @@
             "program": "${workspaceFolder}\\build\\index.js",
             "outFiles": [
                 "${workspaceFolder}/**/*.js"
-            ]
+            ],
+            "env": {
+                "PORT": "3000"
+            }
         }
     ]
 }
